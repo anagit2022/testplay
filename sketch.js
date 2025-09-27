@@ -69,10 +69,10 @@ function mousePressed() {
     }if(currentState === 2)
     {
       if (
-      mouseX > yesx &&
-      mouseX < yesx + yesw &&
-      mouseY > yesy &&
-      mouseY < yesy + yesh
+      mouseX > nox &&
+      mouseX < nox + now &&
+      mouseY > noy &&
+      mouseY < noy + noh
     ) {
       currentState = 2;
         console.log("done");
