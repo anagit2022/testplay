@@ -6,11 +6,7 @@ let nox;
 let noy;
 let now;
 let noh;
-// yes
-let yesx = 227;
-let yesy = 662;
-let yesw = 142;
-let yesh = 47;
+
 
 function preload(){
   img1 = loadImage("Group 106.png");
@@ -20,11 +16,16 @@ function preload(){
 function setup() {
   createCanvas(windowWidth,windowHeight);
   imageMode(CENTER);
-  // no
- nox = windowWidth - x;
- noy = windowHeight - y;
- now = 142;
- noh = 47;
+  // no button
+ nox = width*0.1;
+  noy =638 ;
+  now = 142;
+ noh= 47;
+  // yes button
+  yesx =width*0.5 ;
+  yesy = 638;
+  yesw = 142;
+  yesh= 47;
 }
 
 function draw() {
