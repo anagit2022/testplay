@@ -6,7 +6,10 @@ let nox;
 let noy;
 let now;
 let noh;
-
+let yesx;
+let yesy;
+let yesw;
+let yesh;
 
 function preload(){
   img1 = loadImage("Group 106.png");
